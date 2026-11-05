@@ -114,7 +114,13 @@ window.CONFIG = {
       subtitulo: "Lo que nos espera",
       carta: [
         "Mi querida Irene:",
-        "[Miguel: escribe aquí lo que esperas del futuro juntos.]"
+        "En mi última carta te conté que las mariposas por fin habían encontrado su casa. Pero hay algo que no te dije: no perdieron las alas.",
+        "Al principio volaban sin rumbo, por nervios, por miedo a perder lo que acababa de empezar. Ahora, cuando vuelvan a volar, será distinto: volarán porque queremos, juntas y en la misma dirección.",
+        "Dicen que el aleteo de una mariposa puede provocar un huracán al otro lado del mundo. Yo creo que con nosotros pasa algo parecido: cada pequeño gesto de hoy, cada «te quiero», cada café por la mañana, cada tarea que hacemos juntos, va construyendo sin que nos demos cuenta algo enorme.",
+        "Para ese vuelo quiero que hablemos más. Que no nos dejemos nada dentro, ni lo bonito ni lo que cuesta decir. Que nos elijamos y nos prioricemos cada día, también en los días normales. Y que el respeto y la confianza sean el motor que nos empuje hacia delante.",
+        "Sé que no todo serán días de sol. Habrá viento en contra, tormentas y momentos duros en los que cueste volar. Pero una mariposa no deja de volar porque llueva: se resguarda, espera y vuelve a abrir las alas. Así quiero que seamos nosotros. Que, cuando lleguen esos momentos, nos agarremos más fuerte y los superemos juntos, sin soltarnos.",
+        "No sé exactamente adónde nos llevará este vuelo, pero sí sé con quién quiero hacerlo. Y eso, para mí, es suficiente.",
+        "Las mariposas del principio se convirtieron en alas, Irene. Y no hay ningún cielo que quiera recorrer si no es a tu lado."
       ],
       firma: "Te quiere, Miguel",
       pista: [
