@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Tarjetas para imprimir</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: "Cormorant Garamond", Georgia, serif; color: #4a2c2a; background: #eee; margin: 0; padding: 20px; }
+    .ayuda { max-width: 760px; margin: 0 auto 20px; font-family: system-ui, sans-serif; font-size: 14px; background: #fff; padding: 12px 16px; border-radius: 8px; }
+    .ayuda button { font: inherit; padding: 6px 14px; cursor: pointer; }
+    .tarjeta {
+      width: 148mm; min-height: 105mm; /* A6 apaisado */
+      margin: 0 auto 20px;
+      padding: 10mm 12mm;
+      background: #fbf5e9;
+      border: 2px solid #b8935a;
+      outline: 1px solid #b8935a; outline-offset: -6px;
+      page-break-inside: avoid; break-inside: avoid;
+      text-align: center;
+    }
+    .etq { text-transform: uppercase; letter-spacing: .2em; font-size: 11pt; color: #b8935a; margin: 0; }
+    h1 { font-family: "Dancing Script", cursive; color: #7b2e3e; font-size: 26pt; margin: 2mm 0 4mm; }
+    h2 { font-family: "Dancing Script", cursive; color: #c9707d; font-size: 18pt; margin: 0 0 3mm; }
+    p { font-size: 13pt; margin: 0 0 2mm; }
+    .pie { margin-top: 5mm; font-style: italic; font-size: 11pt; color: #7a5a52; }
+    .escondite { font-family: system-ui, sans-serif; font-size: 12px; color: #2f4858; max-width: 148mm; margin: -14px auto 24px; }
+    @media print {
+      body { background: none; padding: 0; }
+      .ayuda, .escondite { display: none; }
+      .tarjeta { margin: 0 auto 10mm; }
+    }
+  </style>
+</head>
+<body>
+  <div class="ayuda">
+    <strong>Solo para Miguel.</strong> Imprime estas tarjetas y escóndelas donde indica cada nota azul
+    (las notas no se imprimen). <button type="button" onclick="window.print()">Imprimir</button>
+  </div>
+  <div id="tarjetas"></div>
+
+  <script src="config.js"></script>
+  <script>
+    (function () {
+      var cont = document.getElementById("tarjetas");
+      window.CONFIG.paginas.filter(function (p) { return p.tipo === "reto"; }).forEach(function (p) {
+        var t = document.createElement("section");
+        t.className = "tarjeta";
+        var add = function (tag, txt, cls) {
+          var n = document.createElement(tag);
+          n.textContent = txt;
+          if (cls) n.className = cls;
+          t.appendChild(n);
+        };
+        add("p", p.etiqueta + " · " + p.titulo, "etq");
+        add("h1", "¡Has encontrado una página perdida!");
+        add("h2", p.reto.titulo);
+        p.reto.texto.forEach(function (linea) { add("p", linea); });
+        add("p", "Cuando lo tengas, sube tu foto al libro ♥", "pie");
+        cont.appendChild(t);
+
+        var nota = document.createElement("p");
+        nota.className = "escondite";
+        nota.textContent = "📍 Esconder en: " + p.escondite;
+        cont.appendChild(nota);
+      });
+    })();
+  </script>
+</body>
+</html>
