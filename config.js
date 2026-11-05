@@ -150,7 +150,7 @@ window.CONFIG = {
         "Mi querida Irene:",
         "Lo has conseguido. Las páginas perdidas han vuelto a su sitio y nuestro libro vuelve a estar completo.",
         "Recorriste nuestro pasado, guardaste nuestro presente y escribiste nuestro futuro. Pero hay algo que quiero que sepas: este libro nunca estará terminado, porque cada día que paso contigo escribimos una página nueva.",
-        "Gracias por jugar conmigo, por reírte, por buscar y por ser tú. Te quiero."
+        "Gracias por jugar conmigo, por reírte, por buscar y por ser tú. Te quiero.",
         " "
         "PD: encontrarás tu tesoro en X"
       ],
