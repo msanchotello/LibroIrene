@@ -77,10 +77,17 @@ window.CONFIG = {
       titulo: "El Presente",
       subtitulo: "Lo que somos hoy",
       carta: [
-        "Mi querida Irene:",
-        "[Miguel: escribe aquí lo que sientes ahora mismo por ella.]"
+        "Irene:",
+        "Al final de mi última carta te hablaba de aquellas mariposas en el estómago. Quizá te preguntes dónde están ahora.",
+        "Durante mucho tiempo pensé que esas mariposas eran el amor. Hoy sé que, en realidad, eran nervios: los nervios de no saber si me escribirías esa noche, de no saber si sentías lo mismo que yo, de no saber si lo nuestro sobreviviría a la distancia.",
+        "Las mariposas revolotean porque no saben dónde posarse. Y las mías, poco a poco, encontraron su sitio: contigo.",
+        "Por eso ya no siento aquel cosquilleo nervioso. Lo que siento ahora es calma. Es llegar a casa y que estés tú. Es saber que, pase lo que pase durante el día, al final estaremos los dos juntos, contándonoslo todo.",
+        "Y ahora esa casa es de verdad nuestra. Acabamos de mudarnos juntos, y aquella distancia que tanto nos dolía ya no existe como antes. Ya no hay kilómetros de por medio ni despedidas: solo un «buenas noches» dicho en voz baja, a tu lado.",
+        "Despertarme junto a ti hace que todo sea más fácil. Y contigo he descubierto algo que nunca habría imaginado: que hasta la tarea más tediosa se vuelve apetecible si la hacemos juntos.",
+        "Lo que siento hoy por ti hace menos ruido que al principio, pero es mucho más profundo. Ya no es la emoción de lo nuevo, es la tranquilidad de lo seguro. Ya no es no poder despegarme del móvil; es no querer despegarme de ti.",
+        "Las mariposas no se fueron, Irene. Simplemente dejaron de volar, porque por fin estaban en casa."
       ],
-      firma: "Tuyo, Miguel",
+      firma: "Te quiero, Miguel",
       pista: [
         "Donde cada día empieza con café",
         "y cada noche acaba en una cena,",
