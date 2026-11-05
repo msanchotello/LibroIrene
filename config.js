@@ -51,7 +51,7 @@ window.CONFIG = {
         "Me enamoré de lo a gusto que me sentía contigo, de lo guapa que eres (y de lo feo que me sentía yo a tu lado; las comparaciones son odiosas), de lo rápido que quisiste presentarme a tu familia y de lo rápido que me hiciste desear que todo esto no terminara en Helsinki, hasta el punto de querer irme a Madrid ese mismo año.",
         "En definitiva, me enamoré de ti por cómo eres y por cómo demuestras tu amor: de forma sincera y apasionada. Esas mariposas en el estómago eran la razón por la que no quería separarme de ti."
       ],
-      firma: "Miguel",
+      firma: "Te quiero, Miguel",
       pista: [
         "Toda historia empieza en un libro,",
         "y la nuestra también, mi amor.",
