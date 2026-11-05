@@ -44,10 +44,14 @@ window.CONFIG = {
       titulo: "El Pasado",
       subtitulo: "Donde todo empezó",
       carta: [
-        "Mi querida Irene:",
-        "[Miguel: escribe aquí qué te hizo enamorarte de ella. Puedes añadir tantos párrafos como quieras, cada uno entre comillas y separado por comas.]"
+        "Irene:",
+        "En aquel otoño de 2022 conecté por primera vez con una persona maravillosa, no solo por fuera, sino también por dentro.",
+        "Lo primero que me gustó de ti fue tu seguridad y tu buen hacer. Ver que te preocupabas por mí sin apenas conocerme, y que me integrabas en un grupo de gente que para mí eran desconocidos.",
+        "Poco a poco, eso se fue transformando en confianza: risas, bromas… Y esa confianza terminó convirtiéndose en complicidad. En querer pasar tiempo contigo, en pensar en ti, en no poder despegarme del móvil por las noches porque no quería dejar de hablar contigo.",
+        "Me enamoré de lo a gusto que me sentía contigo, de lo guapa que eres (y de lo feo que me sentía yo a tu lado; las comparaciones son odiosas), de lo rápido que quisiste presentarme a tu familia y de lo rápido que me hiciste desear que todo esto no terminara en Helsinki, hasta el punto de querer irme a Madrid ese mismo año.",
+        "En definitiva, me enamoré de ti por cómo eres y por cómo demuestras tu amor: de forma sincera y apasionada. Esas mariposas en el estómago eran la razón por la que no quería separarme de ti."
       ],
-      firma: "Tuyo, Miguel",
+      firma: "Miguel",
       pista: [
         "Toda historia empieza en un libro,",
         "y la nuestra también, mi amor.",
@@ -105,7 +109,7 @@ window.CONFIG = {
         "Mi querida Irene:",
         "[Miguel: escribe aquí lo que esperas del futuro juntos.]"
       ],
-      firma: "Tuyo, Miguel",
+      firma: "Te quiere, Miguel",
       pista: [
         "Donde cerramos los ojos para soñar",
         "y el mañana se dibuja en silencio,",
