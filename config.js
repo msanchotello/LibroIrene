@@ -54,7 +54,7 @@ window.CONFIG = {
       firma: "Te quiero, Miguel",
       pista: [
         "Toda historia empieza en un libro,",
-        "y la nuestra también, mi amor.",
+        "y la nuestra también, amor.",
         "Busca entre tus páginas favoritas:",
         "ahí espera el primer capítulo de los dos."
       ],
