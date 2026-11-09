@@ -113,7 +113,7 @@ window.CONFIG = {
       titulo: "El Futuro",
       subtitulo: "Lo que nos espera",
       carta: [
-        "Mi querida Irene:",
+        "Irene:",
         "En mi última carta te conté que las mariposas por fin habían encontrado su casa. Pero hay algo que no te dije: no perdieron las alas.",
         "Al principio volaban sin rumbo, por nervios, por miedo a perder lo que acababa de empezar. Ahora, cuando vuelvan a volar, será distinto: volarán porque queremos, juntas y en la misma dirección.",
         "Dicen que el aleteo de una mariposa puede provocar un huracán al otro lado del mundo. Yo creo que con nosotros pasa algo parecido: cada pequeño gesto de hoy, cada «te quiero», cada café por la mañana, cada tarea que hacemos juntos, va construyendo sin que nos demos cuenta algo enorme.",
@@ -122,14 +122,14 @@ window.CONFIG = {
         "No sé exactamente adónde nos llevará este vuelo, pero sí sé con quién quiero hacerlo. Y eso, para mí, es suficiente.",
         "Las mariposas del principio se convirtieron en alas, Irene. Y no hay ningún cielo que quiera recorrer si no es a tu lado."
       ],
-      firma: "Te quiere, Miguel",
+      firma: "Te quiero, Miguel",
       pista: [
-        "Donde cerramos los ojos para soñar",
-        "y el mañana se dibuja en silencio,",
-        "bajo tu almohada te espera",
-        "el último capítulo de este cuento."
+        "Donde cada noche soñamos los dos,",
+        "hay alguien que copia todo lo que haces.",
+        "Mira detrás de tu propio reflejo:",
+        "ahí el futuro espera a que lo alcances."
       ],
-      escondite: "Debajo de su almohada. Cámbialo si quieres y adapta la pista.",
+      escondite: "Detrás del espejo.",
       reto: {
         titulo: "Nuestra lista de sueños",
         texto: [
@@ -147,14 +147,14 @@ window.CONFIG = {
       etiqueta: "Epílogo",
       titulo: "Nuestra historia, completa",
       carta: [
-        "Mi querida Irene:",
+        "Hola Sirenita:",
         "Lo has conseguido. Las páginas perdidas han vuelto a su sitio y nuestro libro vuelve a estar completo.",
         "Recorriste nuestro pasado, guardaste nuestro presente y escribiste nuestro futuro. Pero hay algo que quiero que sepas: este libro nunca estará terminado, porque cada día que paso contigo escribimos una página nueva.",
         "Gracias por jugar conmigo, por reírte, por buscar y por ser tú. Te quiero.",
         " ",
-        "PD: encontrarás tu tesoro en X"
+        "PD: encontrarás tu tesoro en el interior de mi zapato más calentito"
       ],
-      firma: "Para siempre tuyo, Miguel",
+      firma: "Te quiero, Miguel",
       tituloGaleria: "Las páginas recuperadas"
     }
   ]
